@@ -20,9 +20,9 @@ class AboutSectionMobileView extends StatelessWidget {
           mainAxisAlignment:
               kIsWeb ? MainAxisAlignment.spaceAround : MainAxisAlignment.start,
           children: [
-            ViewResumeButton(),
-
+            // ViewResumeButton(),
             if (kIsWeb) Cv(),
+            if (!kIsWeb) Center(child: ViewResumeButton())
           ],
         ),
       ],

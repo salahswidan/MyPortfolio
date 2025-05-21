@@ -1,5 +1,5 @@
 name: portfolio
-description: "Modather Portfolio"
+description: "Salah Swidan Portfolio"
 publish_to: "none"
 version: 1.0.0+1
 environment:
@@ -36,10 +36,10 @@ dev_dependencies:
   flutter_launcher_icons: "^0.14.3"
 
 flutter_launcher_icons:
-  image_path: "assets/images/avatar.png"
+  image_path: "assets/images/profile_photo.jpg"
   web:
     generate: true
-    image_path: "assets/images/avatar.png"
+    image_path: "assets/images/profile_photo.jpg"
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is

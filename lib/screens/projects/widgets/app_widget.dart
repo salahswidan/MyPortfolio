@@ -67,7 +67,11 @@ class AppWidget extends StatelessWidget {
               textAlign: TextAlign.center,
               style: const TextStyle(
                 fontWeight: FontWeight.bold,
+                
               ),
+            ),
+            SizedBox(
+              height: 1,
             ),
           ],
         );

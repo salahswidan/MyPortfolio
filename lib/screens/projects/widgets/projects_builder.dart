@@ -26,8 +26,9 @@ class ProjectsBuilderMobileView extends StatelessWidget {
   Widget build(BuildContext context) {
     return GridView.builder(
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+        //! note
         crossAxisCount: 3,
-        childAspectRatio: kIsWeb ? 1 : 0.8,
+        childAspectRatio: kIsWeb ? 1 : 0.6,
       ),
       shrinkWrap: true,
       physics: const NeverScrollableScrollPhysics(),

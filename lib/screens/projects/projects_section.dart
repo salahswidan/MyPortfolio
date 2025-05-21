@@ -34,7 +34,7 @@ class ProjectsSection extends StatelessWidget {
           const Text(
             'Here are some of my projects that I have worked on:',
             style: TextStyle(
-              fontSize: 18,
+              fontSize: 16,
               color: Colors.grey,
             ),
           ),
