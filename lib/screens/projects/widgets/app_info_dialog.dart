@@ -45,7 +45,7 @@ class AppInfoDialog extends StatelessWidget {
                 Text(
                   project.name,
                   style: const TextStyle(
-                    fontSize: 20,
+                    fontSize: 15,
                     fontWeight: FontWeight.bold,
                   ),
                 ),

@@ -28,6 +28,7 @@ class ProjectsBuilderMobileView extends StatelessWidget {
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
         //! note
         crossAxisCount: 3,
+   
         childAspectRatio: kIsWeb ? 1 : 0.6,
       ),
       shrinkWrap: true,
@@ -47,8 +48,8 @@ class ProjectsBuilderDesktopView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Wrap(
-      spacing: 20,
-      runSpacing: 20,
+      spacing: 15,
+      runSpacing: 15,
       children: projects.map((project) {
         return AppWidget(project: project);
       }).toList(),

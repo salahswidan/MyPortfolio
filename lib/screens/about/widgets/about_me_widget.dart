@@ -27,7 +27,7 @@ class AboutMeWidget extends StatelessWidget {
                   Constants.avatarImage,
                   fit: BoxFit.cover,
                 ),
-              ),
+              ), 
             ),
             const SizedBox(width: 16),
             Expanded(

@@ -30,7 +30,7 @@ class ProjectsSection extends StatelessWidget {
               ),
             ],
           ),
-          const SizedBox(height: 24),
+          const SizedBox(height: 16),
           const Text(
             'Here are some of my projects that I have worked on:',
             style: TextStyle(

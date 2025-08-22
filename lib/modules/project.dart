@@ -42,6 +42,31 @@ class Project {
 
 List<Project> projects = [
   Project(
+    name: 'Unique App',
+    description:
+        'PosterPrint App is a Flutter-based e-commerce application that allows users to order customized posters.Users can either choose from ready-made templates or upload their own images, then customize poster size, add a frame, select quantity, and place an order with home delivery.',
+    gitHubUrl: 'https://github.com/salahswidan/unique-app',
+    preview:
+        'https://drive.google.com/file/d/19rfqCHnIWegvsxIwvyHrtkbWsKqRZmlH/view?usp=drive_link',
+    icon: 'assets/projects_icons/unique_app_icon.jpg',
+  ),
+  Project(
+    name: 'Terra App',
+    description:
+        'A simple yet powerful Flutter E-Commerce App built with Cubit (Bloc) for state management.This app provides an elegant shopping experience with product browsing, authentication, cart management, product details, and even accessories customization (necklace editor).',
+    gitHubUrl: 'https://github.com/salahswidan/terra_app',
+    preview:
+        'https://drive.google.com/file/d/1iBg3L_MeqO-cAgDNwOqrbvemFz5Saojz/view?usp=drive_link',
+    icon: 'assets/projects_icons/terra_app_icon.jpg',
+  ),
+  Project(
+    name: 'Dr Appointment',
+    description:
+        'enables users to browse doctors by specialty, view doctor profiles, book appointments, and manage their medical interactions efficiently. It combines a sleek UI with essential functionalities that are ideal for telemedicine startups, hospitals, or independent healthcare professionals.',
+    gitHubUrl: 'https://github.com/salahswidan/dr_appointment_app',
+    icon: 'assets/projects_icons/dr_appointment_app_icon.jpg',
+  ),
+  Project(
     name: 'Watfa App',
     description:
         ' E-commerce application tailored specifically for the Gulf market ,  responsive design with smooth animations , supports English and Arabic languages',
@@ -51,7 +76,7 @@ List<Project> projects = [
         'https://drive.google.com/file/d/1LzNOwqEJrGgZQSUyoeI-nNXBlIxBjKSG/view',
   ),
   Project(
-    name: ' Fitness & Feeding System',
+    name: 'Fitness & Feeding System',
     description:
         " Main depend on InBody analysis instead of traditional methods (e.g., height, weight, age.) ,  Provides customized exercise and nutritional plans ,Implemented muscle measurement logging ",
     gitHubUrl: 'https://github.com/salahswidan/fitness-and-feeding-system',
@@ -68,26 +93,4 @@ List<Project> projects = [
         'https://drive.google.com/file/d/1ih1oDBsYTjE0dfIMxijJdNi3bf3wBQGY/view',
     icon: 'assets/projects_icons/Drosak_Management_App.jpg',
   ),
-
-  Project(
-    name: 'Personal Finance Tracker App',
-    description:
-        ' ▪ designed to help users monitor their spending habits and manage their finances efficiently ▪ Track where and when they spend money and the days of it ▪ Get a clear view of their financial status with user-friendly displays and summaries. ▪ Implemented state management using Cubit for seamless user interaction and efficient data handling.',
-    gitHubUrl: 'https://github.com/salahswidan/finance_app',
-    icon: 'assets/projects_icons/Finance.png',
-  ),
-  Project(
-    name: 'Reader book App',
-    description:
-        'dynamic book-shopping app using Flutter, incorporating MVVM architecture, Bloc state  management, and Clean Architecture. ▪ Enhanced user experience by integrating seamless browsing, previewing, and exploring features for  curated book collections. ▪ Utilized Dio for secure and efficient REST API handling',
-    gitHubUrl: 'https://github.com/salahswidan/bookly_app_clean_arch',
-    icon: 'assets/projects_icons/bookly.png',
-  ),
-  Project(
-    name: 'Audio Player Quran App',
-    description: 'Audio Player Quran App',
-    gitHubUrl: 'https://github.com/salahswidan/audio_player_quran_app',
-    icon: 'assets/projects_icons/koran.jpg',
-  ),
-
 ];
